@@ -1,4 +1,4 @@
-# OKX DEX Widget React Application
+# OKX DEX Widget Svelte Application
 
 **Check out the live deployment of this repository:**
 [Dex Widget Demo](https://dex-widget-demo-Juliandev28.replit.app)
