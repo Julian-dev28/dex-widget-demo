@@ -92,8 +92,13 @@ button:disabled {
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .nav-list {
@@ -138,11 +143,17 @@ button:disabled {
 }
 
 @keyframes navIndicator {
-  from { transform: scaleX(0); }
-  to { transform: scaleX(1); }
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
 }
 
-.landing-page, .widget-page {
+.landing-page,
+.widget-page {
   text-align: center;
 }
 
@@ -151,7 +162,7 @@ button:disabled {
   margin-bottom: 30px;
 }
 
-.widget-page > div {
+.widget-page>div {
   display: inline-block;
   margin-top: 30px;
 }
