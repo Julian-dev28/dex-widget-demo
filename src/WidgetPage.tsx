@@ -29,29 +29,29 @@ const WidgetPage: React.FC = () => {
       height: 400,
       providerType: ProviderType.EVM,
       tradeType: TradeType.AUTO,
-      chainIds: ["196", "8453"],
+      // chainIds: ["10", "8453", "1", "137", "59144", "5000"],
       theme: THEME.LIGHT,
       lang: "en_us",
       tokenPair: {
-        fromChain: 196, //X Layer
-        toChain: 196, // X Layer
-        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
-        toToken: "0x74b7f16337b8972027f6196a17a631ac6de26d22", // USDC
+        fromChain: 5000, //Mantle
+        toChain: 5000, // Mantle
+        fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // MNT
+        toToken: "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9", // USDC
       },
       bridgeTokenPair: {
-        fromChain: 8453, // BASE
-        toChain: 196, // X Layer
+        fromChain: 5000, // Mantle
+        toChain: 59144, // LINEA 
         fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // ETH
-        toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // OKB
+        toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // MNT
       },
       feeConfig: {
-        196: {
+        5000: {
           feePercent: 1,
-          referrerAddress: "0xd37268a16374d0a52c801c06a11ef32a35fcd2b9",
+          referrerAddress: "0x9163756d2a83a334de2cc0c3aa1df9a5fc21369d", // Change this to your referrer address
         },
         8453: {
           feePercent: 1,
-          referrerAddress: "0xd37268a16374d0a52c801c06a11ef32a35fcd2b9",
+          referrerAddress: "0x9163756d2a83a334de2cc0c3aa1df9a5fc21369d", // Change this to your referrer address
         },
       },
     };
