@@ -39,8 +39,8 @@ const WidgetPage: React.FC = () => {
         toToken: "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9", // USDC
       },
       bridgeTokenPair: {
-        fromChain: 5000, // Mantle
-        toChain: 59144, // LINEA 
+        fromChain: 8453, // BASE
+        toChain: 5000, // Mantle
         fromToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // ETH
         toToken: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // MNT
       },
